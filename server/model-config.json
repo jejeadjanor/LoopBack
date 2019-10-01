@@ -1,0 +1,116 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "studentcard": {
+    "dataSource": "soapDS",
+    "public": true
+  },
+  "soap_StudentCard_Binding": {
+    "dataSource": null,
+    "public": true
+  },
+  "Read": {
+    "dataSource": null,
+    "public": true
+  },
+  "Read_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "StudentCard": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReadByRecId": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReadByRecId_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReadMultiple": {
+    "dataSource": null,
+    "public": true
+  },
+  "StudentCard_Filter": {
+    "dataSource": null,
+    "public": true
+  },
+  "ReadMultiple_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "StudentCard_List": {
+    "dataSource": null,
+    "public": true
+  },
+  "IsUpdated": {
+    "dataSource": null,
+    "public": true
+  },
+  "IsUpdated_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRecIdFromKey": {
+    "dataSource": null,
+    "public": true
+  },
+  "GetRecIdFromKey_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "Create": {
+    "dataSource": null,
+    "public": true
+  },
+  "Create_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateMultiple": {
+    "dataSource": null,
+    "public": true
+  },
+  "CreateMultiple_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "Update": {
+    "dataSource": null,
+    "public": true
+  },
+  "Update_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateMultiple": {
+    "dataSource": null,
+    "public": true
+  },
+  "UpdateMultiple_Result": {
+    "dataSource": null,
+    "public": true
+  },
+  "Delete": {
+    "dataSource": null,
+    "public": true
+  },
+  "Delete_Result": {
+    "dataSource": null,
+    "public": true
+  }
+}

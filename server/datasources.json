@@ -1,0 +1,56 @@
+{
+  "soapDS": {
+    "url": "http://192.168.1.82:8149/Trust_2015_Test/WS/THE%20TRUST%20HOSPITAL_merged/Page/StudentCard",
+    "name": "soapDS",
+    "wsdl": "C:/Users/Jemima/Desktop/my-soap-connector/server/StudentCard.xml",
+    "remotingEnabled": true,
+    "operations": {
+      "Read": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "Read"
+      },
+      "Create": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "Create"
+      },
+      "ReadByRecId": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "ReadByRecId"
+      },
+      "ReadMultiple": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "ReadMultiple"
+      },
+      "IsUpdated": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "IsUpdated"
+      },
+      "GetRecIdFromKey": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "GetRecIdFromKey"
+      },
+      "Update": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "Update"
+      },
+      "UpdateMultiple": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "UpdateMultiple"
+      },
+      "Delete": {
+        "service": "StudentCard_Service",
+        "port": "StudentCard_Port",
+        "operation": "Delete"
+      }
+    },
+    "connector": "soap"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "StudentCard",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "Key": {
+      "type": "string"
+    },
+    "Id": {
+      "type": "string"
+    },
+    "First_Name": {
+      "type": "string"
+    },
+    "Last_Name": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

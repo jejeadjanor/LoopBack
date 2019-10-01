@@ -1,0 +1,27 @@
+{
+  "name": "ReadMultiple",
+  "base": "Model",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "forceId": "false",
+  "excludeBaseProperties": [
+    "id"
+  ],
+  "properties": {
+    "filter": {
+      "type": "StudentCard_Filter"
+    },
+    "bookmarkKey": {
+      "type": "string"
+    },
+    "setSize": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
